@@ -1,0 +1,406 @@
+/* ========================================
+   SUNY New Paltz - Shared Styles
+   ======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f5f5f5;
+}
+
+/* ========================================
+   Header / Navigation
+   ======================================== */
+
+header {
+    background-color: #003b70;
+    color: white;
+    padding: 20px 8%;
+}
+
+.campus-header {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 59, 112, 0.55);
+    background-image:
+        linear-gradient(rgba(0, 59, 112, 0.55), rgba(0, 59, 112, 0.55)),
+        url("../images/12308197_900503006671095_8530434684587737500_o-1740x574.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.campus-heading {
+    width: 100%;
+    margin: auto 0;
+    padding: 55px 20px 30px;
+    text-align: center;
+}
+
+.campus-heading h1 {
+    margin-bottom: 15px;
+    font-size: 55px;
+}
+
+.campus-heading p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 21px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ========================================
+   Hero Section
+   ======================================== */
+
+.hero {
+    background: linear-gradient(
+        rgba(0, 59, 112, 0.85),
+        rgba(0, 59, 112, 0.85)
+    );
+
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 21px;
+    max-width: 750px;
+    margin: auto;
+}
+
+/* Hero Image */
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* ========================================
+   Buttons
+   ======================================== */
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #f5b335;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #d99a20;
+}
+
+/* ========================================
+   General Sections
+   ======================================== */
+
+section {
+    padding: 60px 8%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+    color: #003b70;
+    font-size: 35px;
+}
+
+/* ========================================
+   About Section
+   ======================================== */
+
+.about {
+    background-color: white;
+    text-align: center;
+}
+
+.about p {
+    max-width: 850px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* ========================================
+   Introduction Section
+   ======================================== */
+
+.intro {
+    background-color: white;
+    text-align: center;
+}
+
+.intro p {
+    max-width: 850px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* ========================================
+   Academic Program Cards
+   ======================================== */
+
+.programs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.program-card {
+    background-color: white;
+    width: 300px;
+    min-height: 200px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+}
+
+.program-card h3 {
+    color: #003b70;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.program-card p {
+    color: #555;
+}
+
+/* ========================================
+   General Cards
+   ======================================== */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.card h3 {
+    color: #003b70;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.card p {
+    color: #555;
+}
+
+/* ========================================
+   Campus Life / Resources
+   ======================================== */
+
+.stats,
+.resources {
+    background-color: #003b70;
+    color: white;
+}
+
+.stats .section-title,
+.resources .section-title {
+    color: white;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 40px;
+    color: #f5b335;
+}
+
+.stat p {
+    font-size: 17px;
+}
+
+/* ========================================
+   Academic Resources
+   ======================================== */
+
+.resource-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.resource {
+    background-color: white;
+    color: #222;
+    width: 280px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.resource h3 {
+    color: #003b70;
+    margin-bottom: 10px;
+}
+
+/* ========================================
+   Why SUNY New Paltz
+   ======================================== */
+
+.why {
+    background-color: white;
+}
+
+.why-list {
+    max-width: 800px;
+    margin: auto;
+}
+
+.why-item {
+    padding: 20px;
+    border-left: 5px solid #f5b335;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+.why-item h3 {
+    color: #003b70;
+    margin-bottom: 5px;
+}
+
+/* ========================================
+   Location
+   ======================================== */
+
+.location {
+    background-color: white;
+    text-align: center;
+}
+
+.location p {
+    max-width: 850px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* ========================================
+   Footer
+   ======================================== */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer a {
+    color: #f5b335;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ========================================
+   Mobile / Responsive Design
+   ======================================== */
+
+@media (max-width: 700px) {
+
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .program-card,
+    .resource,
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .stats-container {
+        gap: 40px;
+    }
+}
