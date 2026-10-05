@@ -1,0 +1,423 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Academics | SUNY New Paltz</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #f5f5f5;
+        }
+
+        /* Header */
+        header {
+            background: #0b3d2e;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e5b94d;
+        }
+
+        /* Hero */
+        .hero {
+            background:
+                linear-gradient(rgba(0, 50, 35, 0.78), rgba(0, 50, 35, 0.78)),
+                url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1600&q=80")
+                center/cover;
+
+            min-height: 420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 750px;
+            margin: auto;
+        }
+
+        /* Sections */
+        section {
+            padding: 70px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #0b3d2e;
+            font-size: 2.3rem;
+            margin-bottom: 40px;
+        }
+
+        .intro {
+            background: white;
+            text-align: center;
+        }
+
+        .intro p {
+            max-width: 850px;
+            margin: auto;
+            font-size: 1.1rem;
+        }
+
+        /* Academic Programs */
+        .programs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .program {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .program:hover {
+            transform: translateY(-5px);
+        }
+
+        .program h3 {
+            color: #0b3d2e;
+            margin-bottom: 12px;
+            font-size: 1.4rem;
+        }
+
+        .program p {
+            color: #555;
+        }
+
+        /* Why New Paltz */
+        .why {
+            background: #e9eee9;
+        }
+
+        .why-content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .why-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .why-box h3 {
+            color: #0b3d2e;
+            margin-bottom: 10px;
+        }
+
+        /* Call to Action */
+        .cta {
+            background: #0b3d2e;
+            color: white;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 2.3rem;
+            margin-bottom: 15px;
+        }
+
+        .cta p {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #e5b94d;
+            color: #222;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #d2a83d;
+        }
+
+        /* Footer */
+        footer {
+            background: #06291f;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        footer a {
+            color: #e5b94d;
+            text-decoration: none;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero h1 {
+                font-size: 2.7rem;
+            }
+
+            .programs,
+            .why-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">SUNY New Paltz</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="academics.html">Academics</a>
+            <a href="#programs">Programs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Hero -->
+    <section class="hero">
+        <div>
+            <h1>Academics</h1>
+
+            <p>
+                Explore academic opportunities, discover your interests,
+                and build the knowledge and skills you need for your future.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h2 class="section-title">Academic Excellence</h2>
+
+        <p>
+            SUNY New Paltz provides students with opportunities to explore
+            a wide variety of academic disciplines. Students can work with
+            faculty, participate in hands-on learning, and develop skills
+            that prepare them for careers and further education.
+        </p>
+    </section>
+
+
+    <!-- Programs -->
+    <section id="programs">
+
+        <h2 class="section-title">Explore Our Academic Areas</h2>
+
+        <div class="programs">
+
+            <div class="program">
+                <h3>Computer Science</h3>
+
+                <p>
+                    Learn programming, software development, algorithms,
+                    computer systems, and problem-solving skills for a
+                    rapidly changing technology industry.
+                </p>
+            </div>
+
+
+            <div class="program">
+                <h3>Business</h3>
+
+                <p>
+                    Study areas such as management, marketing, finance,
+                    entrepreneurship, and organizational leadership.
+                </p>
+            </div>
+
+
+            <div class="program">
+                <h3>Engineering</h3>
+
+                <p>
+                    Develop technical and analytical skills while exploring
+                    engineering concepts and real-world applications.
+                </p>
+            </div>
+
+
+            <div class="program">
+                <h3>Arts & Design</h3>
+
+                <p>
+                    Explore creative disciplines including art, design,
+                    digital media, and visual communication.
+                </p>
+            </div>
+
+
+            <div class="program">
+                <h3>Education</h3>
+
+                <p>
+                    Prepare for careers in education while developing
+                    communication, teaching, and leadership skills.
+                </p>
+            </div>
+
+
+            <div class="program">
+                <h3>Social Sciences</h3>
+
+                <p>
+                    Examine human behavior, society, communication,
+                    politics, psychology, and other areas of social study.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Why Study Here -->
+    <section class="why">
+
+        <h2 class="section-title">Why Study at New Paltz?</h2>
+
+        <div class="why-content">
+
+            <div class="why-box">
+                <h3>Hands-On Learning</h3>
+
+                <p>
+                    Students can apply classroom concepts through projects,
+                    research, internships, creative work, and other
+                    learning experiences.
+                </p>
+            </div>
+
+
+            <div class="why-box">
+                <h3>Faculty Support</h3>
+
+                <p>
+                    Students have opportunities to work with professors
+                    and receive guidance throughout their academic journey.
+                </p>
+            </div>
+
+
+            <div class="why-box">
+                <h3>Wide Range of Programs</h3>
+
+                <p>
+                    Explore different academic interests and find programs
+                    that match your goals and career interests.
+                </p>
+            </div>
+
+
+            <div class="why-box">
+                <h3>Career Preparation</h3>
+
+                <p>
+                    Build knowledge, communication skills, critical thinking,
+                    and practical experience that can help prepare you for
+                    life after college.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Call to Action -->
+    <section class="cta">
+
+        <h2>Start Exploring</h2>
+
+        <p>
+            Discover the programs, courses, and opportunities available
+            at SUNY New Paltz.
+        </p>
+
+        <a
+            href="https://www.newpaltz.edu/"
+            target="_blank"
+            class="button">
+            Visit SUNY New Paltz
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <p>
+            &copy; 2026 SUNY New Paltz Webpage
+        </p>
+
+        <p>
+            <a
+                href="https://www.newpaltz.edu/"
+                target="_blank">
+                Official SUNY New Paltz Website
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+</html>
+```
