@@ -2,7 +2,9 @@
 
 ## About me
 
-I am a senior student in **SUNY New Paltz**. Outside of school i like to *write*, *game*, and *watch movies*. I hope to create stories in the future for others to enjoy. ![me](images/me_milo.png)
+I am a senior student in **SUNY New Paltz**. Outside of school i like to *write*, *game*, and *watch movies*. I hope to create stories in the future for others to enjoy. 
+
+![me](images/me_milo.png)
 
 ## Technical Background
 
