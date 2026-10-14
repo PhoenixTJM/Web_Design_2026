@@ -46,4 +46,4 @@ This means you can only get better at something from doing that task. It applies
 - [x] Understand html
 - [ ] Learn about making websites
 - [ ] Learning about hosting
-- [ ] Create my own website
+- [ ] Create my own websites
