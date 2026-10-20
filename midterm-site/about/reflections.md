@@ -15,4 +15,4 @@ The risk of using someone ele's image from a server is that if any information c
 
 4. If you used AI: name one thing it did well and one thing you had to correct. If you built it by hand: name one thing you would structure differently from the start, now that you've reorganized it.
 
-The AI did a good job with the choice in pictures and information on the pages. The only thing i had to fixx was the style of the website. The image sizes were a little off for the gallery page. The colors are also very generic.
+The AI did a good job with the choice in pictures and information on the pages. The only thing i had to fixx was the style of the website. The image sizes were a little off for the gallery page. The colors are also very generic. NOTE: I did ask the copilot for support while setting up my vercel because i was absent on the the day we used it in class. It did not edit any of my files after the  midterm start up.
