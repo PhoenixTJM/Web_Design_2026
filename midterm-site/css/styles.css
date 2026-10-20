@@ -350,7 +350,7 @@ figcaption { color: var(--muted); font-size: .72rem; }
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1.1fr .9fr;
-  grid-template-rows: 430px 360px 360px;
+  grid-template-rows: 430px 360px 500px;
   gap: 1.2rem;
 }
 
