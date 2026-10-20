@@ -350,7 +350,7 @@ figcaption { color: var(--muted); font-size: .72rem; }
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1.1fr .9fr;
-  grid-template-rows: 430px 360px;
+  grid-template-rows: 430px 360px 360px;
   gap: 1.2rem;
 }
 
@@ -359,7 +359,7 @@ figcaption { color: var(--muted); font-size: .72rem; }
 .gallery-item:hover img { transform: scale(1.035); }
 .gallery-item-tall { grid-row: span 2; }
 .gallery-item-tall img { object-position: 50% 28%; }
-.gallery-item-wide { grid-column: 2; }
+.gallery-item-wide { auto; }
 .gallery-item-wide img { object-position: 50% 28%; }
 .gallery-item figcaption {
   position: absolute;
