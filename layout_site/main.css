@@ -1,0 +1,22 @@
+
+
+.special-paragraph{
+    /* margin: 2rem */ /* controls outside elements spacing */
+    padding: 2rem;  /* controls inside elements spacing */
+    background-color: #f36767;
+}
+
+
+.highlighted{
+    display: inline-block; /* makes the element behave like an inline element but allows setting width and height */
+    width: 50%;
+    background-color: #afabd7;
+}
+
+.more{
+    position: relative;
+    display: inline-block;
+}
+.more:hover span{
+    display: block;
+}
