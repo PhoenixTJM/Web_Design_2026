@@ -44,10 +44,15 @@ nav a{
 .column{
     background-color: #f4c5c5;
     padding: 2em;
-    margin-left: .5em;
-    margin-right: .5em;
+
 }
 
 .expand{
     flex-grow: 1;
+}
+
+@media (max-width: 600px) {
+    nav ul, .columns{
+        flex-direction: column;
+    }
 }
